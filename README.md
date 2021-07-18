@@ -4,8 +4,6 @@ The source code for my personal website. It contains project descriptions, conta
 * [npm live server](https://www.npmjs.com/package/live-server)
 
 ## TODO
-* Remove placeholder text from compsci-club.html 
-	* Or remove projects cki and compsci club and build a downloadable collection of static websites
 * Fix inconsistent nav bars
 	* pages/lifeline-assistant.html nav is not fixed
 	* The nav padding on all pages does not match index.html

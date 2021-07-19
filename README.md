@@ -4,6 +4,7 @@ The source code for my personal website. It contains project descriptions, conta
 * [npm live server](https://www.npmjs.com/package/live-server)
 
 ## TODO
+* Swap images and text in projects section.
 * Fix inconsistent nav bars
 	* pages/lifeline-assistant.html nav is not fixed
 	* The nav padding on all pages does not match index.html

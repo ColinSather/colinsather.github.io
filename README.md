@@ -5,9 +5,6 @@ The source code for my personal website. It contains project descriptions, conta
 * [npm live server](https://www.npmjs.com/package/live-server)
 
 ## TODO
-* Fix inconsistent nav bars
-	* pages/lifeline-assistant.html nav is not fixed
-	* The nav padding on all pages does not match index.html
 * Add some blog posts from notes
 * Ditch bootstrap and use a more minimalist CSS library
 * Focus on getting rid of unused js and css before using native web components or a javascript framework

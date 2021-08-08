@@ -197,7 +197,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  color: #1bf467;
+  color: #1bf467!important;
   border: solid 2px;
   position: relative;
   z-index: 1;

@@ -754,6 +754,10 @@ Features/About Section
   margin: 0 auto;
   line-height: 1.7rem;
 }
+.center-panel p {
+	max-width: 540px;
+	color: #ddd;
+}
 .head-desc h1 {
   font-size: 38pt;
 }

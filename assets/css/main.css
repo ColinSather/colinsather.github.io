@@ -757,6 +757,8 @@ Features/About Section
 .center-panel p {
 	max-width: 540px;
 	color: #ddd;
+	line-height: 1.5;
+	font-size: 16pt;
 }
 .head-desc h1 {
   font-size: 38pt;

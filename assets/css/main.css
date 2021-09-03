@@ -104,7 +104,11 @@ a {
   color: #ffffff;
 }
 
-a:hover {
+a.nav-link {
+  color: #fff!important;
+}
+
+a.nav-link:hover {
   text-decoration: none;
   color: #1bf467!important;
 }
@@ -214,7 +218,7 @@ a:not([href]):not([tabindex]) {
 
 .btn-common:hover {
   color: #fff!important;
-  background-color: #222;
+  background-color: #222!important;
   box-shadow: 0 6px 22px rgba(27, 244, 103, 0.25);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -316,20 +320,15 @@ button:focus {
 
 .social-icon a:hover {
   color: #fff !important;
-  background-color: #666;
+  /*background-color: #1bf467;*/
+  background-color: #222!important;
+  box-shadow: 0 6px 22px rgb(27 244 103 / 25%);
 }
 
-.social-icon .freelance {
-  background: #2ebcaf;
+.social-icon a{
+  background: #666;
 }
 
-.social-icon .git {
-  background: #2ebc4f;
-}
-
-.social-icon .linkedin {
-  background: #1260A2;
-}
 
 i.fa.fa-angle-double-right {
   font-size: 22px;
@@ -528,9 +527,14 @@ Features/About Section
   font-size: 18pt!important;
 }
 
+.logo a:hover {
+  color: #1bf467!important;
+}
+
 .navbar-brand {
   position: relative;
 }
+
 .navbar-toggler {
   color: #fff;
   position: absolute;
@@ -597,7 +601,6 @@ Features/About Section
   background: #0b0e11 !important;
   z-index: 200;
   width: 100%;
-  /*position: fixed;*/
 }
 
 .menu-white .navbar-nav .nav-link {

@@ -335,36 +335,6 @@ i.fa.fa-angle-double-right {
   font-size: 22px;
 }
 
-/* ScrollToTop */
-a.back-to-top {
-  display: none;
-  position: fixed;
-  bottom: 18px;
-  right: 15px;
-  text-decoration: none;
-}
-
-a.back-to-top i {
-  display: block;
-  font-size: 22px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  color: #fff;
-  background: #1f7a8c;
-  border-radius: 30px;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-}
-
-a.back-to-top:hover, a.back-to-top:focus {
-  text-decoration: none;
-}
-
 /* Preloader not in use since content is not dynamic yet
 #preloader {
   position: fixed;

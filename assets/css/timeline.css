@@ -40,6 +40,7 @@
     width: 2px;
 }
 
+/*
 @media (min-width: 768px) {
     .cid-s7SZ0UvBBv .row:after {
         height: calc(100%);
@@ -47,6 +48,7 @@
         left: 50%;
     }
 }
+*/
 
 @media (min-width: 992px) {
     .cid-s7SZ0UvBBv .timeline-date-wrapper, .cid-s7SZ0UvBBv .timeline-text-wrapper, .cid-s7SZ0UvBBv .image-wrapper {

@@ -94,6 +94,7 @@ h1.logo {
 .copyright {
     background: #0b0e11 !important;
     padding: 15px;
+    color: #fff!important;
 }
 
 body {
@@ -820,6 +821,11 @@ button.form-control.btn.btn-common.header-button {
 
 .right-head {
     padding-left: 0px;
+}
+
+a.contacts {
+    color: #fff;
+    text-decoration: none;
 }
 
 

@@ -779,10 +779,10 @@ Features/About Section
 }
 
 .center-panel p {
-    max-width: 540px;
+    max-width: 600px;
     color: #ddd;
     line-height: 1.5;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .head-desc h1 {

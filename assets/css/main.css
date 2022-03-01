@@ -824,7 +824,7 @@ button.form-control.btn.btn-common.header-button {
 }
 
 a.contacts {
-    color: #fff;
+    color: #d7d5d5;
     text-decoration: none;
 }
 
@@ -1180,7 +1180,7 @@ Special Projects Partial Section
     }
     .copyright p {
         line-height: 60px;
-        color: #fff;
+        color: #d7d5d5;
         text-align: center;
         margin: 0;
     }

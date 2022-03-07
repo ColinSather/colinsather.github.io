@@ -133,6 +133,7 @@
     font-size: 18px;
     text-align: center!important;
   }
+  /*
   .center-panel {
     padding-left: 15px;
     left: 50%!important;
@@ -141,6 +142,7 @@
     position: absolute;
     transform: translate(-50%,-50%);
   }
+  */
   #hero-area .contents .header-button  {
     text-align: center;
   }

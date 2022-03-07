@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-gap > div {
+    margin: 12px;
+}
+
 h1.logo {
     margin-bottom: 0!important;
 }
@@ -227,6 +238,7 @@ a:not([href]):not([tabindex]) {
     position: relative;
     z-index: 1;
     text-transform: uppercase;
+    width: 150px;
 }
 
 .btn-common2 {
@@ -303,6 +315,7 @@ button:focus {
 
 .video-link {
     color: #0489d1!important;
+    padding-right: 15px;
 }
 
 .video-link-container {
@@ -462,7 +475,9 @@ Services Section
 }
 
 .dev-color {
+    /*
     background: #181818;
+    */
     color: #fff;
 }
 
@@ -753,7 +768,6 @@ Features/About Section
 ========================================================================== */
 
 #hero-area {
-    overflow: hidden;
     width: 100%;
     height: 100vh;
     color: #ffffff;
@@ -766,13 +780,15 @@ Features/About Section
 }
 
 .center-panel {
+    /*
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     width: 100%;
-    z-index: 100;
-    padding-top: 1.5rem;
+    z-index: 1;
+    */
+    color: #fff;
     max-width: 50rem;
     margin: 0 auto;
     line-height: 1.7rem;
@@ -852,34 +868,24 @@ a.contacts {
 }
 
 .waveWrapperInner {
-    position: absolute;
     width: 100%;
+    /*
+    position: absolute;
     height: 100%;
     bottom: -1px;
+    */
+    
     /* This gradient looks cool */
     /* background-image: linear-gradient(to top, #64ffda 1%, #0b0e11 10%); */
-    background-image: linear-gradient(to top, #1bf467 2%, #0b0e11 10%);
+    background-image: linear-gradient(to top, #1bf467 2%, #0b0e11 20%);
     overflow-x: hidden;
     /* may cause scrolling issue */
 }
 
-.bgMiddle {
-    z-index: 10;
-    opacity: 0.75;
-}
-
-.bgBottom {
-    z-index: 5;
-}
-
 .wave {
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
+    height: 500px;
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
-    transform-origin: center bottom;
 }
 
 .waveAnimation .waveTop {
@@ -892,19 +898,20 @@ a.contacts {
 .waveMiddle {
     background-size: 50% 120px;
 }
-
+/*
 .waveAnimation .waveMiddle {
     animation: move_wave 10s linear infinite;
 }
-
 .waveBottom {
     background-size: 50% 100px;
 }
+*/
 
+/*
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
-
+*/
 
 /* ==========================================================================
    Portfolio Table Style

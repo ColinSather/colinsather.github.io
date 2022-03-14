@@ -17,25 +17,7 @@ $ npm run build
 ### Step 3 : deploy
 
 - copy and paste everything in build folder to your server
-- edit /etc/apache2/apache2.conf 
-
-```
-<Directory "/var/www/html">
-    ...
-    AllowOverride All
-    ...
-</Directory>
-```
-
-- create a “.htaccess” file in html directory and add this snippet :
-
-```
-Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
-```
-or edit /etc/apache2/apache2.conf
+- edit /etc/apache2/apache2.conf and add the following
 
 ```
 <Directory "/var/www/html">

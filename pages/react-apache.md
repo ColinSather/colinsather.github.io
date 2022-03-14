@@ -17,7 +17,7 @@ $ npm run build
 ### Step 3 : deploy
 
 - copy and paste everything in build folder to your server
-- edit /etc/httpd/conf/httpd.conf 
+- edit /etc/apache2/apache2.conf 
 
 ```
 <Directory "/var/www/html">

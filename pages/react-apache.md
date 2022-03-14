@@ -35,7 +35,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.html [QSA,L]
 ```
-or edit /etc/httpd/conf/httpd.conf
+or edit /etc/apache2/apache2.conf
 
 ```
 <Directory "/var/www/html">

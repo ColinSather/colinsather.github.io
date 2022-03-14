@@ -14,7 +14,7 @@ $ cd my-app
 $ npm run build
 ```
 
-### Step 3 : deploy
+### Step 3 : Deploy
 
 - copy and paste everything in build folder to your server
 - edit /etc/apache2/apache2.conf and add the following

@@ -1,0 +1,15 @@
+{
+  "name": "og-website",
+  "version": "1.0.0",
+  "description": "The source code for my personal website. It contains project descriptions, contact information, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "purgecss": "purgecss --css ./assets/css/main.css --content index3.html --output ./assets/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "purgecss": "^4.1.3"
+  }
+}

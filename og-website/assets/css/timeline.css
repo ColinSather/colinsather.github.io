@@ -5,6 +5,7 @@
 }
 */
 
+
 .cid-s7SZ0UvBBv .timeline-element {
     position: relative;
 }
@@ -68,4 +69,8 @@ img, iframe {
 img {
     vertical-align: middle;
     border-style: none;
+}
+
+.hundred-w{
+    width: 70px!important;
 }

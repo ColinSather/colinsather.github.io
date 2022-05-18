@@ -1,5 +1,6 @@
 import "../styles/bootstrap.min.css"
 import "../styles/globals.css"
+import "../styles/modal.css"
 import Layout from "../components/Layout"
 
 function MyApp({ Component, pageProps }) {

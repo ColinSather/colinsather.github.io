@@ -3,7 +3,7 @@ title: "This is an example post"
 author: "Colin Sather"
 category: "example"
 date: "2022-03-13"
-bannerImage: "url-to-image.png"
+bannerImage: "/iso-ui.jpg"
 tags:
     - example
 ---

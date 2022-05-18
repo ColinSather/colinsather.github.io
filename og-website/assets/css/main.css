@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
-h1.logo {
-    margin-bottom: 0!important;
-}
 
 .project-href {
     margin-bottom: 1rem;
@@ -37,7 +34,6 @@ body {
 
 h1,
 h2,
-h3,
 h4 {
     font-size: 38px;
     font-weight: 700;
@@ -50,6 +46,7 @@ a {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
+
 
 a.nav-link {
     color: #fff!important;
@@ -129,12 +126,6 @@ a:not([href]):not([tabindex]) {
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
-}
-
-.btn-lg {
-    padding: 10px 33px;
-    text-transform: uppercase;
-    font-size: 1.2rem;
 }
 
 button:focus {
@@ -247,7 +238,8 @@ Services Section
 =====================================*/
 
 .about-spacing {
-    padding: 3.5rem 0;
+    padding-top: 3.5rem;
+    margin-top: 3.5rem;
 }
 
 .u-line {
@@ -278,7 +270,7 @@ Services Section
     color: #fff;
 }
 
-.fa-github {
+.fa-tag {
     margin-bottom: .7rem;
     font-size: 35pt;
     content: "\f20e";
@@ -295,20 +287,6 @@ Features/About Section
 .vertical-center {
     display: flex;
     align-items: center;
-}
-
-.logo a {
-    margin: 1rem!important;
-    font-size: 18pt!important;
-    color: #fff!important;
-}
-
-.logo a:hover {
-    color: #1bf467!important;
-}
-
-.navbar-brand {
-    position: relative;
 }
 
 .navbar-toggler {
@@ -344,7 +322,7 @@ Features/About Section
 .navbar {
     padding: 0;
     font-size: 12pt;
-    background: #0b0e11 !important;
+    background: #12151b !important;
     z-index: 200;
     width: 100%;
 }
@@ -353,48 +331,6 @@ Features/About Section
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
-
-#hero-area {
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
-    color: #ffffff;
-}
-
-.center-panel {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    z-index: 100;
-    padding-top: 1.5rem;
-    max-width: 50rem;
-    margin: 0 auto;
-    line-height: 1.7rem;
-}
-
-.center-panel p {
-    max-width: 600px;
-    color: #ddd;
-    line-height: 1.5;
-    font-size: 18pt;
-}
-
-.head-desc h1 {
-    font-size: 38pt;
-}
-
-.head-desc ul li {
-    list-style: circle!important;
-    font-size: 1.6rem;
-}
-
-.head-desc ul {
-    padding-left: 30px!important;
-    padding-top: 1rem!important;
-    padding-bottom: 1.5rem!important;
-}
 
 a.contacts {
     color: #d7d5d5;
@@ -414,61 +350,6 @@ a.contacts {
     100% {
         transform: translateX(-50%) translateZ(0) scaleY(1)
     }
-}
-
-.waveWrapper {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-}
-
-.waveWrapperInner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -1px;
-    /* This gradient looks cool */
-    /* background-image: linear-gradient(to top, #64ffda 1%, #0b0e11 10%); */
-    background-image: linear-gradient(to top, #1bf467 2%, #0b0e11 10%);
-    overflow-x: hidden;
-    /* may cause scrolling issue */
-}
-
-.bgMiddle {
-    z-index: 10;
-    opacity: 0.75;
-}
-
-.bgBottom {
-    z-index: 5;
-}
-
-.wave {
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
-}
-
-.waveMiddle {
-    background-size: 50% 120px;
-}
-
-.waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
-}
-
-.waveBottom {
-    background-size: 50% 100px;
-}
-
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
 }
 
 
@@ -522,10 +403,6 @@ Special Projects Partial Section
   background-image: url('../img/dots-small.svg');
 }
 */
-    .h3 {
-        font-size: 16px;
-        margin-top: 26px;
-    }
     /* Footer Area Start */
     .copyright {
         background: #0b0e11 !important;

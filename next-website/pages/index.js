@@ -2,13 +2,11 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import Articles from '../components/articles'
 import Landing from '../components/landing'
-import Animation from '../components/animation'
 
 export default function Home({posts}) {
   return (
     <main>
       <Landing />
-      <Animation />
       <Articles posts={posts} />  
     </main>
   ) 
